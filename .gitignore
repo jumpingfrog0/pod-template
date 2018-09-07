@@ -23,6 +23,7 @@ xcuserdata/
 *.xcodeproj/project.xcworkspace/xcshareddata/
 */*.xcworkspace/xcshareddata/
 *.xcworkspace/xcshareddata/
+templates/ios/Example/PROJECT.xcodeproj/project.xcworkspace/xcshareddata/
 
 ## Other
 *.moved-aside
