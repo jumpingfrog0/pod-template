@@ -2,7 +2,7 @@
 
 PROJ=""
 POD_SPEC="${PROJ}.podspec"
-POD_REPO="xspecs"
+POD_REPO="master"
 VERSION=$1
 COMPANY="jumpingfrog0"
 
@@ -35,6 +35,6 @@ git push origin master
 echo "==> 提交 tag $VERSION"
 git tag -d $VERSION
 git tag $VERSION -m "tag: $VERSION"
-git push --tags
+git push --force origin refs/tags/$VERSION:refs/tags/$VERSION
 
-pod repo push $POD_REPO $POD_SPEC --allow-warnings --verbose --sources=$POD_REPO,master
+pod trunk push $POD_SPEC --allow-warnings --verbose
