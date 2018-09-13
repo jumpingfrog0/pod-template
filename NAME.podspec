@@ -28,10 +28,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = '${Source}/Classes/**/*'
+  s.source_files = 'Source/Classes/**/*'
   
   # s.resource_bundles = {
-  #   '${POD_NAME}' => ['${Source}/Assets/*.png']
+  #   '${POD_NAME}' => ['Source/Assets/*.png']
   # }
 
   # s.public_header_files = 'Source/Classes/**/*.h'
